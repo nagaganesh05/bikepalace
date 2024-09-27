@@ -1,0 +1,21 @@
+body{
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #333;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    background-color: #333;
+}
+
